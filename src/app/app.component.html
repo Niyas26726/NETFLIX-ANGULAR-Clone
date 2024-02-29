@@ -1,0 +1,19 @@
+<!-- navbar-start -->
+<nav class="navbar navbar-expand-lg fixed-top" [ngStyle]="navbg">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/">{{title}}</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/search">search</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- navbar-end -->
+<router-outlet></router-outlet>
